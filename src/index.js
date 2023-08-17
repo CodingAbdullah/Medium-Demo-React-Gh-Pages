@@ -14,8 +14,8 @@ root.render(
     <Navbar />
     <Router>
       <Routes>
-        <Route exact path="/" element={<App />}></Route>
-        <Route exact path="/login" element={<LoginFormPage />}></Route>
+        <Route exact path="/Demo10_React_JS_GitHub_Pages/" element={<App />}></Route>
+        <Route exact path="/Demo10_React_JS_GitHub_Pages/#/login" element={<LoginFormPage />}></Route>
         <Route exact path="*" element={<Page404 />}></Route>
       </Routes>
     </Router>
