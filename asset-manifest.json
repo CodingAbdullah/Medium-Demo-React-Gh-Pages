@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Demo10_React_JS_GitHub_Pages/static/css/main.964fdded.css",
-    "main.js": "/Demo10_React_JS_GitHub_Pages/static/js/main.04aa511c.js",
-    "static/js/787.cda612ba.chunk.js": "/Demo10_React_JS_GitHub_Pages/static/js/787.cda612ba.chunk.js",
-    "index.html": "/Demo10_React_JS_GitHub_Pages/index.html",
-    "main.964fdded.css.map": "/Demo10_React_JS_GitHub_Pages/static/css/main.964fdded.css.map",
-    "main.04aa511c.js.map": "/Demo10_React_JS_GitHub_Pages/static/js/main.04aa511c.js.map",
-    "787.cda612ba.chunk.js.map": "/Demo10_React_JS_GitHub_Pages/static/js/787.cda612ba.chunk.js.map"
+    "main.css": "/Medium-Demo-React-Gh-Pages/static/css/main.964fdded.css",
+    "main.js": "/Medium-Demo-React-Gh-Pages/static/js/main.551f2b30.js",
+    "static/js/787.cda612ba.chunk.js": "/Medium-Demo-React-Gh-Pages/static/js/787.cda612ba.chunk.js",
+    "index.html": "/Medium-Demo-React-Gh-Pages/index.html",
+    "main.964fdded.css.map": "/Medium-Demo-React-Gh-Pages/static/css/main.964fdded.css.map",
+    "main.551f2b30.js.map": "/Medium-Demo-React-Gh-Pages/static/js/main.551f2b30.js.map",
+    "787.cda612ba.chunk.js.map": "/Medium-Demo-React-Gh-Pages/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.964fdded.css",
-    "static/js/main.04aa511c.js"
+    "static/js/main.551f2b30.js"
   ]
 }
