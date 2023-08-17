@@ -11,33 +11,33 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         {
-                            window.location.pathname === '/Medium-Demo-React-Gh-Pages/' ?
+                            window.location.pathname === '/' ?
                                 <>
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="/Medium-Demo-React-Gh-Pages/"><b>Home</b></a>
+                                        <a className="nav-link active" aria-current="page" href="/"><b>Home</b></a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="/Medium-Demo-React-Gh-Pages/#/login">Login</a>
+                                        <a className="nav-link" href="/login">Login</a>
                                     </li>
                                 </>
                             :
                             (
-                                window.location.pathname === '/Medium-Demo-React-Gh-Pages/#/login' ? 
+                                window.location.pathname === '/login' ? 
                                     <>
                                         <li className="nav-item">
-                                            <a className="nav-link" aria-current="page" href="/Medium-Demo-React-Gh-Pages/">Home</a>
+                                            <a className="nav-link" aria-current="page" href="/">Home</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link active" href="/Medium-Demo-React-Gh-Pages/#/login"><b>Login</b></a>
+                                            <a className="nav-link active" href="/login"><b>Login</b></a>
                                         </li>
                                     </>
                                 :
                                     <>
                                         <li className="nav-item">
-                                            <a className="nav-link" aria-current="page" href="/Medium-Demo-React-Gh-Pages/">Home</a>
+                                            <a className="nav-link" aria-current="page" href="/">Home</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="/Medium-Demo-React-Gh-Pages/#/login">Login</a>
+                                            <a className="nav-link" href="/login">Login</a>
                                         </li>
                                     </>
                             )
