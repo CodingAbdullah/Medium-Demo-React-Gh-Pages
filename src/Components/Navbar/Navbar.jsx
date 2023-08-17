@@ -11,33 +11,33 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         {
-                            window.location.pathname === '/Demo10_React_JS_GitHub_Pages/' ?
+                            window.location.pathname === '/Medium-Demo-React-Gh-Pages/' ?
                                 <>
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="/Demo10_React_JS_GitHub_Pages/"><b>Home</b></a>
+                                        <a className="nav-link active" aria-current="page" href="/Medium-Demo-React-Gh-Pages/"><b>Home</b></a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="/Demo10_React_JS_GitHub_Pages/#/login">Login</a>
+                                        <a className="nav-link" href="/Medium-Demo-React-Gh-Pages/#/login">Login</a>
                                     </li>
                                 </>
                             :
                             (
-                                window.location.pathname === '/Demo10_React_JS_GitHub_Pages/#/login' ? 
+                                window.location.pathname === '/Medium-Demo-React-Gh-Pages/#/login' ? 
                                     <>
                                         <li className="nav-item">
-                                            <a className="nav-link" aria-current="page" href="/Demo10_React_JS_GitHub_Pages/">Home</a>
+                                            <a className="nav-link" aria-current="page" href="/Medium-Demo-React-Gh-Pages/">Home</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link active" href="/Demo10_React_JS_GitHub_Pages/#/login"><b>Login</b></a>
+                                            <a className="nav-link active" href="/Medium-Demo-React-Gh-Pages/#/login"><b>Login</b></a>
                                         </li>
                                     </>
                                 :
                                     <>
                                         <li className="nav-item">
-                                            <a className="nav-link" aria-current="page" href="/Demo10_React_JS_GitHub_Pages/">Home</a>
+                                            <a className="nav-link" aria-current="page" href="/Medium-Demo-React-Gh-Pages/">Home</a>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="/Demo10_React_JS_GitHub_Pages/#/login">Login</a>
+                                            <a className="nav-link" href="/Medium-Demo-React-Gh-Pages/#/login">Login</a>
                                         </li>
                                     </>
                             )
