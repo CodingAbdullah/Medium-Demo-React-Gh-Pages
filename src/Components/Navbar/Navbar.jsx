@@ -11,7 +11,8 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         {
-                            window.location.pathname === '#/' ?
+                            
+                            window.location.href === 'https://codingabdullah.github.io/Medium-Demo-React-Gh-Pages/#' ?
                                 <>
                                     <li className="nav-item">
                                         <a className="nav-link active" aria-current="page" href="#/"><b>Home</b></a>
@@ -22,7 +23,7 @@ const Navbar = () => {
                                 </>
                             :
                             (
-                                window.location.pathname === '#/login' ? 
+                                window.location.href === 'https://codingabdullah.github.io/Medium-Demo-React-Gh-Pages/#/login' ? 
                                     <>
                                         <li className="nav-item">
                                             <a className="nav-link" aria-current="page" href="#/">Home</a>
